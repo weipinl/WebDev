@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>My Contact Information</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -11,6 +12,17 @@
   <p>4877 Hillcrest Drive</p>
   <p>Phone: (520)425-6343</p>
   <p>Email: Hi@gmail.com</p>
+
+  <hr>
+  <form action="mailto:123@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="yourName"><br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail"><br>
+    <label>Message:</label><br>
+    <textarea name="yourMessage" rows="8" cols="80"></textarea>
+  </form>
 </body>
+
 
 </html>
